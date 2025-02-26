@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 3. 运行服务
 ```bash
-uvicorn main:app --reload
+python main.py
 ```
 
 服务将在 http://127.0.0.1:8000 启动
@@ -151,4 +151,4 @@ Apache License 2.0
 
 ## 致谢
 
-本项目参考了 [api-for-hot-search](https://github.com/imsyy/api-for-hot-search) 的实现。
+本项目参考了 [api-for-hot-search-golang](https://github.com/iiecho1/api-for-hot-search-golang) 的实现。
