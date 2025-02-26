@@ -42,7 +42,6 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/gztcode/hot_search_data_api)
 
-点击上方按钮，即可快速部署到 Vercel。请将 `<your_github_username>` 替换为你的 GitHub 用户名。
 
 
 ### 环境要求
