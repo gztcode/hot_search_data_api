@@ -31,7 +31,7 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    port = int(config.server_port)
+    port = int(os.environ.get("PORT", config.server_port))
     
     logger.info(f"服务启动在端口 {port}")
     app.run(host="0.0.0.0", port=port, debug=False) 
